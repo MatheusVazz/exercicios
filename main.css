@@ -2,144 +2,134 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: 'Caslon Antique', sans-serif;
 }
 
-header,
-section h2,
-section h3,
-form button {
-    font-family: 'Bungee', sans-serif;
-    font-weight: normal;
+header{
+        flex-direction: row;
 }
 
-body,
-input,
-textarea {
-    font-family: 'Roboto', sans-serif;
+.gif{
+    height: 200px;
+    width: 200px;
 }
 
-header {
-    padding: 16px 0;
-    background-color: #182c61;
-    color: #ecf0f1;
+header p{
+    font-size: 16px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0.3em 0.3em rgb(52, 50, 50);
+    padding-bottom: 32px;
 }
 
-header nav li {
-    display: inline;
-    margin-left: 16px;
-    font-size: 18px;
+header h1 {
+    font-size: 58px;
+    padding-top:32px ;
+    padding-bottom: 32px;
+    text-align: center;
+    text-shadow: 0.1em 0.1em rgb(52, 50, 50);
 }
 
-header nav li a {
-    color: #ecf0f1;
-    text-decoration: none;
+h2 {
+    align-items: center;
+    font-size: 48px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 32px; 
+    padding-bottom: 16px;
+    text-shadow: 0.1em 0.1em rgb(52, 50, 50);
+
+}
+
+.colossus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
 
 .container {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-header .container,
-section .container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    text-align: center;
+
 }
 
-.brands-list img {
-    height: 24px;
-    margin-right: 8px;
+.container h2 {
+    font-size: 26px;
 }
 
-.brands-list li {
+.colossus img {
+    height: 300px;
+    padding-right: 32px;
+}
+
+.container #dormin_fala {
+    width: 300px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    text-shadow: 0.1em 0.1em gray;
+    
+}
+
+#caracteristicas-colossu {
+    flex-direction: row;
+    background-color: rgb(12, 12, 12);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+#descricao_colossu{
+    width: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-color: rgb(12, 12, 12);
+
+}
+
+.lista_colossus{
+    padding-bottom: 20px;
+    background-image: url(./imagens/d7vbd5o-0b271e00-f09b-4dd0-9db4-8fbbbc13ebf7.jpg);
+    padding: 300px;
+}
+
+.lista_colossus li {
     display: inline;
+    padding-left: 100px;
+    font-family: 'Caslon Antique', sans-serif;
+    font-size: 24px;
 }
 
-section .container {
-    align-items: flex-start;
-}
-
-section {
-    padding: 24px 0;
-}
-
-section h2 {
-    margin-bottom: 16px;
-    color: #182c61;
-}
-
-section p {
-    margin-bottom: 8px;
-}
-
-section {
-    color: #182c61;
-}
-
-section .stare-front {
-    margin-right: 32px;
-}
-
-.social-links img {
-    height: 24px;
-}
-
-.social-links li {
-    display: inline;
-    margin-right: 8px;
-}
-
-.social-links a {
+.lista_colossus li a {
     text-decoration: none;
+    text-shadow: 0.1em 0.1em gray;
 }
 
-#contact .container {
-    display: block;
+.lista_colossus li a:hover{
+    text-decoration-line: underline;
+    color: rgb(32, 32, 32);
 }
 
-.contact-methods {
-    display: flex;
-    justify-content: space-between;
+.divisor img{
+    width: 1280px;
+    padding-left: 200px;
+    opacity:30%;
+
 }
 
-form input,
-form textarea,
-form button {
-    display: block;
-    width: 320px;
-    margin-bottom: 8px;
-    padding: 8px;
+#botaolista{
+    padding-left: 650px;
+    padding-bottom: 50px;
+    font-size: 32px;
 }
 
-form textarea {
-    resize: none;
-    height: 180px;
-}
-
-section h3 {
-    margin-bottom: 16px;
-}
-
-form button {
-    background-color: #182c61;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #3f61bd;
-}
-
-input:focus,
-textarea:focus {
-    outline-color: #182c61;
-}
-
-footer {
-    background-color: #182c61;
-    color: #fff;
-    padding: 16px 0;
+#logosony{
+    margin-left: 800px;
+    width: 200px;
 }
